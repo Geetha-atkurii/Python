@@ -22,5 +22,11 @@ Use a loop and condition to find the largest element in a given list.
 
 number_list = [3, 5, 7, 2, 8, -1, 4, 10, 12, 6, 0]
 
-# for num in number_list:
+largest = number_list[0]
+
+for num in number_list:
+    if num > largest:
+        largest = num
+print("The largest number in the list is:", largest)
+
     
